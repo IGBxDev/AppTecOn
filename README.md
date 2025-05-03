@@ -58,6 +58,7 @@ Componente que exibe o nome do usuário e a empresa associada.
 Componente que representa o calendário, usado como atalho visual para interações futuras.
 
 ---
+   
 
 ## 🚀 Como rodar o projeto
 
@@ -75,6 +76,30 @@ Componente que representa o calendário, usado como atalho visual para interaç�
    npx expo start
 
 4. Escaneie o QR Code com o aplicativo Expo Go no seu dispositivo.
+
+5. 🧰 Simular no Emulador Android
+Para simular o app diretamente no seu computador, é necessário instalar o Android Studio com o Android Emulator:
+
+📦 Passos para instalação:
+Baixe e instale o Android Studio:
+👉 https://developer.android.com/studio
+
+Durante a instalação, selecione a opção "Android Virtual Device (AVD)".
+
+Após instalado:
+
+Abra o Android Studio
+
+Vá em Device Manager
+
+Crie um novo emulador com um dispositivo (ex: Pixel 5) e uma versão do Android (recomendo API 30 ou superior)
+
+Inicie o emulador.
+
+
+1. No terminal do projeto, com o emulador rodando, execute:
+   ```bash
+   npx expo start --android
 
 📌 Observações
 O projeto está estruturado com expo-router, utilizando rotas baseadas em arquivos.
